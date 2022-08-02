@@ -194,6 +194,7 @@ const App = () => {
     return (
       <div className="landing">
         <h1>Bem-vind@s à EcoSolDAO a DAO da economia solidária!</h1>
+        <p>Veja aqui o que é <a href="https://libersol.org/o-que-e-ecosol/">economia solidária?</a></p>
         <button onClick={connectWithMetamask} className="btn-hero">
           Conecte sua carteira
         </button>
@@ -205,7 +206,8 @@ const App = () => {
     return (
       <div className="member-page">
         <h1>Página dos membros da EcoSol DAO</h1>
-        <p>Parabéns por fazer parte dessa economia solidária!</p>
+        <p>Parabéns por fazer parte dessa economia solidária!
+        Veja aqui o que é uma <a href="https://libersol.org/o-que-e-ecosol/">economia solidária</a></p>
         <div>
           <div>
             <h2>Lista de Membros</h2>

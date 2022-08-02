@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #f09a3e;
   color: #fff;
   overflow-x: hidden;
 }
@@ -91,9 +91,9 @@ h1 {
   gap: 1rem;
 }
 
-.member-page form h5 {
+.member-page form h5, a {
   margin-top: 0;
-  color: #7700ee;
+  color: #383659;
 }
 
 .member-page form .card > div {
